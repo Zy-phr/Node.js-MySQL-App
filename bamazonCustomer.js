@@ -44,8 +44,7 @@ function productID() {
                type: "input",
                message: "What is the Item ID of the Product you would like to buy?",
                validate: function (userInput) {
-                    if(/^[1-9]?[0-9]{1}$|^100$/.test(userInput)) {
-                        console.log('\n this is a number')
+                    if(/^[1-9]?[0-9]{1}$|^100$/.test(userInput)) {50
                         return true;
                     }else {
                         console.log('\n you need to type a number');
@@ -84,4 +83,4 @@ function productID() {
             },
            } 
         ])
-}
+}s1
